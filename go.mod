@@ -1,5 +1,5 @@
-module github.com/mygoog/wallet
+module github.com/mygoog/wallet/v1
 
 go 1.15
 
-require github.com/google/uuid v1.1.2 // indirect
+require github.com/google/uuid v1.1.2
