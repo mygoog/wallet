@@ -1,4 +1,4 @@
-module github.com/mygoog/wallet
+module github.com/mygoog/wallet/v1
 
 go 1.15
 
