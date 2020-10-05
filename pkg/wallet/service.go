@@ -1,7 +1,7 @@
 package wallet
 
 import (
-	"github.com/mygoog/wallet/pkg/types"
+	"github.com/mygoog/wallet/v1/pkg/types"
 	"errors"
 	"github.com/google/uuid"
 )
