@@ -102,7 +102,7 @@ func (s *Service) FindAccountByID(accountID int64) (*types.Account, error) {
 	return account, nil
 }
 
-// FindPaymentByID ищет платёж по ID
+// FindPaymentByID ищет платёж по ID.
 func (s *Service) FindPaymentByID(paymentID string) (*types.Payment, error) {
 	var payment *types.Payment
 	for _, pay := range s.payments {
@@ -116,7 +116,7 @@ func (s *Service) FindPaymentByID(paymentID string) (*types.Payment, error) {
 	return payment, nil
 }
 
-// Reject отменяет платёж
+// Reject отменяет платёж.
 func (s *Service) Reject(paymentID string) error {
 	pay, err := s.FindPaymentByID(paymentID)
 	if err != nil {

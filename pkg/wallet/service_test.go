@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-// Автотесты для FindAccountByID
+// Автотесты для FindAccountByID.
 func TestService_FindAccountByID_success(t *testing.T) {
 	svc := Service{}
 	account, err := svc.RegisterAccount("+9920000001")
@@ -30,7 +30,7 @@ func TestService_FindAccountByID_notFound(t *testing.T) {
 	}
 }
 
-// Автотесты для Reject
+// Автотесты для Reject.
 func TestService_Reject_success(t *testing.T) {
 	svc := Service{}
 	svc.RegisterAccount("+9920000001")
